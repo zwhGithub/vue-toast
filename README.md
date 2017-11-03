@@ -1,31 +1,35 @@
 ## vue-toast-component
-* 基于 vue 2.0 开发的toast弹窗插件
+* 基于 vue 2.0 开发的轻量手机toast弹框
 * 占用内存小，性能好，样式好看
 
+## Demo
+<!-- > [请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-toast/dist/#/) -->
 
 
-
-## Other
-
-* 仿照一位Vue大牛的代码（全盘借鉴）捂脸 (github地址: [wc-messagebox](https://github.com/helicopters/wc-messagebox))
-* 另外推荐一个Vue轮播图插件。占用内存小、流畅、api友好、更新维护快。(轮播图github地址: [wc-swiper](https://github.com/helicopters/wc-swiper))
+## Effect
+<!-- ![效果](https://qiniu.epipe.cn/5465939501580804096?imageView2/1/w/320/h/568) -->
 
 
 ## Install
-```shell
+```javascript
 npm i vue-toast-component --save
+cnpm i vue-toast-component --save  //国内镜像
 ```
 
-## Quick Start  Usage
+##  Usage
 ```javascript
 //main.js中引入
-import Toast from 'vue-toast-component'
-Vue.use(Toast)
 
-在某个vue文件中使用
-this.$toast(content, duration);
+import Toast from 'vue-toast-component';
+Vue.use(Toast);
 
-//举例
-this.$toast("你好") 或者
-this.$toast("你好",1500)
 
+
+this.$toast('这是弹框哦');
+this.$toast('这是两秒的弹框',2000);
+```
+
+
+## Other
+* src下面有demo可以参考.
+* 如果有其他问题或者版本上, 功能上不兼容的 邮件沟通 452216418@qq.com
