@@ -10,7 +10,7 @@ export default {
     return {};
   },
   methods: {
-    click(data) {
+    click() {
       this.$toast("欢迎来到github");
     }
   }

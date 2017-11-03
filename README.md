@@ -3,7 +3,7 @@
 * 占用内存小，性能好，样式好看
 
 ## Demo
-<!-- > [请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-toast/dist/#/) -->
+> [请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-toast/dist/#/)
 
 
 ## Effect
