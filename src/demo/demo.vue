@@ -66,5 +66,6 @@ function Toast(text, time) {
   margin: auto;
   margin-top: 100px;
   text-align: center;
+  cursor: pointer;
 }
 </style>
