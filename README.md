@@ -1,7 +1,7 @@
 ## vue-toast-component
 * 基于 vue 2.0 开发的轻量手机toast弹框
 * 占用内存小，性能好，样式好看
-1
+2
 
 ## Demo
 > [请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-toast/dist/#/)
